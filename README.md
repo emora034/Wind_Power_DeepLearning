@@ -10,3 +10,16 @@ The proposed approach is validated through hourly wind power data from the Spani
 ### Repository Organization
 
 First, the explaratory data analysis can be found in the similarly named notebook. The repository also includes all the code related  to  the  proposed implementation. The code file is divided according to the steps being predicted. For one-step ahead forecasting, the folder includes vanilla, bidirectional, stacked, and convolutional LSTM integrated architectures. For three-steps ahead forecasting, the folder contains the previously mentioned DL models and autoencoder LSTM networks. The reported error metrics produced under these implementations are saved in the results folder, inclusive of R code to process the results and produce comparative graphs.
+
+### Environment 
+
+The proposed work was implemented in Python 3.8 and R 4.0.0. Some of the python packages and their respective versions are:
+1. tensorflow==2.4.0
+2. Keras==2.4.3
+3. Keras-Preprocessing==1.1.2
+4. numpy==1.19.2
+5. matplotlib==3.3.2
+6. pandas==1.1.3
+
+A full list of python packages and their respective versions is available in the repository, to avoid any clashing depencies.
+
