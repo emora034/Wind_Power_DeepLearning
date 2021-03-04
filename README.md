@@ -9,7 +9,7 @@ The proposed approach is validated through hourly wind power data from the Spani
 
 ### Repository Organization
 
-First, the explaratory data analysis can be found in the similarly named notebook. The repository also includes all the code related  to  the  proposed implementation. The code file is divided according to the steps being predicted. For one-step ahead forecasting, the folder includes vanilla, bidirectional, stacked, and convolutional LSTM integrated architectures. For three-steps ahead forecasting, the folder contains the previously mentioned DL models and autoencoder LSTM networks. The reported error metrics produced under these implementations are saved in the results folder, inclusive of R code to process the results and produce comparative graphs.
+First, the explaratory data analysis can be found in the similarly named notebook. The repository also includes all the code related  to  the  proposed implementation. The code file is divided according to the steps being predicted. For one-step ahead forecasting, the folder includes vanilla, bidirectional, stacked, and convolutional LSTM integrated architectures. For three-steps ahead forecasting, the folder contains the previously mentioned DL models and autoencoder LSTM networks. The reported error metrics produced under these implementations are saved in the results folder, inclusive of R code to process the results and produce comparative graphs. Lastly, the full written report is also included in PDF format.
 
 ### Environment 
 
